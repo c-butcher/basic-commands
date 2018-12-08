@@ -1,0 +1,36 @@
+{
+  "name": "math-commands",
+  "version": "1.0.0",
+  "description": "Math commands for the command-processor package.",
+  "main": "main.js",
+  "scripts": {
+    "test": "mocha --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/c-butcher/math-commands.git"
+  },
+  "keywords": [
+    "Command",
+    "Commands",
+    "Command Processor",
+    "Functions",
+    "Math",
+    "Maths",
+    "Mathematics"
+  ],
+  "author": "Chris Butcher",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/c-butcher/math-commands/issues"
+  },
+  "homepage": "https://github.com/c-butcher/math-commands#readme",
+  "dependencies": {
+    "formatted-error": "^1.0.0",
+    "command-processor": "^1.0.0"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^5.2.0"
+  }
+}
