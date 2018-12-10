@@ -1,7 +1,7 @@
 const { assert, expect } = require('chai');
-const MultiplyCommand = require('../src/multiply-command');
+const DivideCommand = require('../../src/math/divide-command');
 
-describe('Subtract Command', () => {
+describe('Divide Command', () => {
     describe('describe()', () => {
         it('passes when it has all the required descriptors', () => {
 

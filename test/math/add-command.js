@@ -1,5 +1,5 @@
 const { assert, expect } = require('chai');
-const AddCommand = require('../src/add-command');
+const AddCommand = require('../../src/math/add-command');
 
 describe('Add Command', () => {
     describe('describe()', () => {

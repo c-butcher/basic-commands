@@ -1,5 +1,5 @@
 const { assert, expect } = require('chai');
-const SubtractCommand = require('../src/subtract-command');
+const SubtractCommand = require('../../src/math/subtract-command');
 
 describe('Subtract Command', () => {
     describe('describe()', () => {
